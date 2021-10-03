@@ -1,0 +1,53 @@
+{
+    "pages": [
+        "pages/index/index",
+        "pages/index/haoke/index",
+        "pages/taishan/taishan",
+        "pages/quancheng/quancheng",
+        "pages/sankong/sankong",
+        "pages/yuncheng/yuncheng",
+        "pages/yuncheng/ws/index"
+    ],
+    "window": {
+        "navigationBarBackgroundColor": "#fff",
+        "navigationBarTitleText": "好客山东欢迎您",
+        "navigationBarTextStyle": "black"
+    },
+    "tabBar": {
+        "color": "#000",
+        "selectedColor": "#00f",
+        "list": [
+            {
+                "pagePath": "pages/index/index",
+                "text": "首页",
+                "iconPath": "/images/shandong-off.jpg",
+                "selectedIconPath": "/images/shandong-on.jpg"
+            },
+            {
+                "pagePath": "pages/taishan/taishan",
+                "text": "泰山",
+                "iconPath": "/images/taishan-off.jpg",
+                "selectedIconPath": "/images/taishan-on.jpg"
+            },
+            {
+                "pagePath": "pages/quancheng/quancheng",
+                "text": "泉城",
+                "iconPath": "/images/quancheng-off.jpg",
+                "selectedIconPath": "/images/quancheng-on.jpg"
+            },
+            {
+                "pagePath": "pages/sankong/sankong",
+                "text": "三孔",
+                "iconPath": "/images/sankong-off.jpg",
+                "selectedIconPath": "/images/sankong-on.jpg"
+            },
+            {
+                "pagePath": "pages/yuncheng/yuncheng",
+                "text": "郓城",
+                "iconPath": "/images/yuncheng-off.jpg",
+                "selectedIconPath": "/images/yuncheng-on.jpg"
+            }
+        ]
+    },
+    "sitemapLocation": "sitemap.json"
+}
